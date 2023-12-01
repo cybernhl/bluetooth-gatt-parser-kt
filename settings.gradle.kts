@@ -2,6 +2,7 @@ pluginManagement {
     repositories {
         mavenCentral()
         gradlePluginPortal()
+        google()
     }
 }
 
@@ -10,3 +11,4 @@ plugins {
 }
 
 rootProject.name = "bluetooth-gatt-parser"
+include(":bluetooth-gatt-parser")
